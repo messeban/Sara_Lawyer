@@ -1,0 +1,133 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+button {
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: none;
+  border: none;
+}
+
+button:hover {
+  background-color: darkslategrey;
+}
+
+#right, #left {
+  background-size: cover;
+  background-position: 0% 75%;
+}
+
+#left {
+  background-image: url("images/taelynn-christopher-pfSNx3Z12K8-unsplash.jpg");
+}
+
+#right {
+  background-image: url("images/kelly-sikkema-SiOW0btU0zk-unsplash.jpg");
+}
+
+.centerContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.center__content {
+  color: white;
+  background-color: grey;
+  opacity: 90%;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.cijfers {
+  background-image: url("./images/law3.jpeg");
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  color: orange;
+}
+
+.kleuren {
+  background-image: url("./images/law2.jpeg");
+  background-size: cover;
+}
+
+.list-group {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.navbar.scrolled {
+  background-color: rgba(44, 62, 80, 0.75) !important;
+  transition: background 500ms;
+}
+
+.nav-link.active {
+  border-bottom:  5px solid white;
+}
+
+.multicolorText {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red) !important;
+  -webkit-background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+.multicolorText_title {
+  background-image: linear-gradient(to left, green, orange, red) !important;
+  -webkit-background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+.multicolorText_title2 {
+  background-image: linear-gradient(to left, violet, indigo, blue, green) !important;
+  -webkit-background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: darkblue !important;
+}
+
+.card {
+  max-height: 400px;
+}
+
+.card-end {
+  text-align: center;
+}
+
+#home{
+  background-image: url("./images/law.jpg");
+  background-size: cover;
+}
+
+#servicesPage{
+  background-color: #2C3E50 !important;
+}
+footer{
+  background-color: #2C3E50 !important;
+}
