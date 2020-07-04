@@ -1,8 +1,0 @@
-
-# BEGIN WordPress
-<IfModule mod_security.c>
-SecFilterEngine Off
-SecFilterScanPOST Off
-</IfModule>
-
-# END WordPress
